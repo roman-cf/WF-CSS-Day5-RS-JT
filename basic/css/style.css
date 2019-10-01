@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+header{
+
+}
+
+.logocontainer{
+	background-color: #ededed;
+	margin-left: -33px;
+	overflow: hidden;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+nav{
+	display: flex;
+	padding-left: 30px;
+	text-transform: uppercase;
+	background-color: #653D3D;
+	color: white;
+	font-weight: 700;
+	font-size: 22px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{text-decoration: underline;}
+nav ul {padding: 0;}
+nav li {
+	display: inline;
+	padding: 0 9px;
+}
+h1{
+	font-size: 8vw;
+}	
+.hero{
+	text-align: center;	
+}
+main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.blogheader{
+	background-color: #978484;
+	padding: 15px;
+	padding-left: 40px;
+	color:  white;
+	width: 100vw;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+figure{
+	margin:5% 0;
+	padding: 0;
+	width: 46%;
+}
+.bild{
+	position: relative;
+	width: 100%;
+	padding-top: 56%;
+}
+.img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+figure img{
+	width: 100%;
+}
+figcaption{
+	font-weight: 700;
+}
+footer{
+	border-top: 1vh solid #978484;
+	font-size: 2vh;
+	padding-top: 2vh;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+footer img {
+	height: 5vh;
+}
